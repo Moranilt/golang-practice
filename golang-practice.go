@@ -18,7 +18,6 @@ func main() {
 		log.Fatal(err)
 	}
 
-	// fmt.Println(message)
 	for _, message := range messages {
 		fmt.Println(message)
 	}
